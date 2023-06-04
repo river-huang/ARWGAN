@@ -7,6 +7,7 @@ The pre-trained model of [ARWGAN](https://drive.google.com/file/d/1jDpF0LBmuFiy4
 ## Train
 The environmental requirements:
 + Python == 3.7.4; Torch == 1.12.1 + cu102; PIL == 7.2.0  
+
       python mian.py new -n name -d data-dir -b batch-size -e epochs  -n noise
 ## Test
 Put the pre-trained model into pretrain floder, and you can test ARWGAN by command line as following.
