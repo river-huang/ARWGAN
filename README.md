@@ -7,6 +7,8 @@ The pre-trained model of [ARWGAN](https://drive.google.com/file/d/1jDpF0LBmuFiy4
 ## Train
 
 ## Test
-![ python test.py]
+'
+python test.py
+'
 ## Acknowledgement
 The codes are designed based on [HiDDeN](https://github.com/ando-khachatryan/HiDDeN).
