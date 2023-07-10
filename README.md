@@ -16,6 +16,19 @@ Environmental requirements:
 Put the pre-trained model into pretrain floder, and you can test ARWGAN by command line as following.
 
       python test.py -o ./pretrain/options-and-config.pickle -c ./pretrain/ARWGAN.pyt -s data-dir -n noise
-      
+
+## Citation
+```bib
+@ARTICLE{10155247,
+  author={Huang, Jiangtao and Luo, Ting and Li, Li and Yang, Gaobo and Xu, Haiyong and Chang, Chin-Chen},
+  journal={IEEE Transactions on Instrumentation and Measurement}, 
+  title={ARWGAN: Attention-Guided Robust Image Watermarking Model Based on GAN}, 
+  year={2023},
+  volume={72},
+  number={},
+  pages={1-17},
+  doi={10.1109/TIM.2023.3285981}}
+```
+
 ## Acknowledgement
 The codes are designed based on [HiDDeN](https://github.com/ando-khachatryan/HiDDeN).
